@@ -79,3 +79,11 @@ npx umi g page login  --typescript
 
 命令会创建出两个文件 `src/pages/login.tsx` 和 `src/pages/login.css`。
 
+## git 下拉使用
+
+```bash
+git clone --depth=1 https://github.com/qzliuchaomin/umi-init-fw
+```
+
+增加 --depth=1 参数，会下载最新版本代码，避免下载整个 git 提交的历史信息。
+
